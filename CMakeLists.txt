@@ -43,6 +43,8 @@ if (OPENCV_CORE_FOUND AND OPENCV_HIGHGUI_FOUND AND PCL_FOUND AND PRIMITIVE_DETEC
 
     # install binary
     install (TARGETS duraark_compress DESTINATION bin)
+    # install binary
+    install (TARGETS duraark_decompress DESTINATION bin)
     # install header
 #   install (DIRECTORY include/ DESTINATION include/duraark_compress)
 endif()
